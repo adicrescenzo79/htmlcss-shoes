@@ -1,0 +1,94 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+nav{
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav .buttons{
+  position: relative;
+}
+
+nav .container{
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+nav h3{
+  display: inline-block;
+  font-size: 15px;
+  background-color: white;
+  margin-left: 10px;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+nav h3.uno:hover, nav h3.due:hover{
+  color: #FFFF00;
+  cursor: pointer;
+}
+
+nav h3.uno:hover{
+  background-color: #FF0000;
+}
+
+nav h3.due:hover{
+  background-color: #008000;
+}
+
+nav h3.tre:hover{
+  background-color: #FFFF00;
+  color: #008000;
+  cursor: pointer;
+}
+
+.page{
+  height: 100vh;
+  position: relative;
+}
+
+.red{
+  background-color: #FF0000;
+  color: #FFFF00;
+}
+
+.green{
+  background-color: #008000;
+  color: #FFFF00;
+}
+
+.yellow{
+  background-color: #FFFF00;
+  color: #008000;
+}
+
+.shoes{
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.yellow .shoes{
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
