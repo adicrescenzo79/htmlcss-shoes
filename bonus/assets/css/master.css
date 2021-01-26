@@ -50,6 +50,10 @@ nav h3.tre:hover{
   cursor: pointer;
 }
 
+nav a{
+  text-decoration: none;
+}
+
 .page{
   height: 100vh;
   position: relative;
