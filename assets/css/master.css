@@ -2,6 +2,33 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+nav{
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav .buttons{
+  position: relative;
+}
+
+nav .container{
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+nav h3{
+  display: inline-block;
+  font-size: 15px;
+  background-color: white;
+  margin-left: 10px;
+  padding: 10px 14px;
+  border-radius: 50%;
 }
 
 .page{
@@ -25,20 +52,16 @@
 }
 
 .shoes{
-  width: 65%;
+  width: 60%;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
   text-align: center;
+  transform: translateX(-50%);
 }
 
 .yellow .shoes{
-  width: 65%;
-  position: absolute;
   top: 50%;
-  left: 50%;
   transform: translate(-50% , -50%);
-  text-align: center;
 }
 
 img{
@@ -48,6 +71,5 @@ img{
 h1{
   text-transform: uppercase;
   font-size: 30px;
+  letter-spacing: 3px;
 }
-
-.red
